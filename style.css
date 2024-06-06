@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image {
+    width: 100px; /* Ширина изображения */
+    height: 100px; /* Высота изображения */
+    margin-right: 5px;
+  }
