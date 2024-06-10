@@ -1,14 +1,10 @@
-let isImage1 = true;
-
 function changeImage() {
-  const image = document.getElementById('buttonImage');
+  const iconImage = document.getElementById('iconImage');
 
-  if (isImage1) {
-    image.src = 'icon-02.svg';
+  if (iconImage.getAttribute('src') === 'icon-01.svg') {
+    iconImage.setAttribute('src', 'icon-02.svg');
   } else {
-    image.src = 'icon-01.svg';
+    iconImage.setAttribute('src', 'icon-01.svg');
   }
-
-  isImage1 = !isImage1;
 }
  
